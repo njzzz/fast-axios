@@ -1,0 +1,23 @@
+{
+  "name": "fast-axios",
+  "version": "1.0.1",
+  "description": "use axios faster!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "qs": "^6.9.4"
+  },
+  "module": "./dist/fast-axios.js",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.0.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
